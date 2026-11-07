@@ -1,0 +1,27 @@
+# Artefactos de compilacion C++ / Qt / qmake
+build/
+build_*/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+Makefile
+Makefile.Debug
+Makefile.Release
+.qmake.stash
+*.pro.user
+*.pro.user.*
+.qtcreator/
+.qtc_clangd/
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Archivos temporales de datos generados en ejecucion
+tramites_unsa.csv
+reporte_auditoria.txt
